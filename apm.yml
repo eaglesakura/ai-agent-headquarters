@@ -1,0 +1,12 @@
+name: eaglesakura/agent-skills
+version: 0.1.0
+author: "@eaglesakura"
+type: hybrid
+includes: auto
+targets:
+  - cursor
+dependencies:
+  apm:
+    - path: ./packages/agent-creator
+    - path: ./packages/agentic-workspace
+    - path: ./packages/cursor-extensions
